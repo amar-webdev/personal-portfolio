@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <img src="./logo" alt="Logo" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="button">contact me <img src="" alt=""></button>
+    </nav>
+    <div class="header">
+        <h1><span>Web</span><br><span>Development</span></h1>
+        <div class="btn-container">
+            <button class="btn-dark">Contact Me <i class="fa-solid fa-phone"></i></button>
+            <button class="btn-light">Portfolio <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <p> Passionate Website Developer with 4+ Years of Experience </p>
+
+        <img src="./assert/soft-girl-aesthetic-pastel-tones-removebg-preview.png" alt="photo" class="user-img">
+    </div>
+
+    <script>
+        let navbar = document.querySelector("nav");
+        window.onscroll = function() {
+            if(window.scrollY > 0) {
+                navbar.style.background = "#eefff9";
+            } else {
+                navbar.style.background = "transparent";
+            }
+        };
+    </script>
+</body>
+</html>
